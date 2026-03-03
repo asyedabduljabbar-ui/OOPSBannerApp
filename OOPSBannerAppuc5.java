@@ -1,0 +1,28 @@
+
+/*
+ * OOPSBannerApp UC5
+ * Inline Array Initialization using String.join()
+ */
+
+public class OOPSBannerAppuc5{
+
+    public static void main(String[] args) {
+
+        String[] lines = {
+
+            String.join("   ", " ***** ", " ***** ", " ***** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*     *", "*     "),
+            String.join("   ", "*     *", "*     *", "*     *", "*     "),
+            String.join("   ", "*     *", "*     *", " ***** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*      ", "     * "),
+            String.join("   ", "*     *", "*     *", "*      ", "*     *"),
+            String.join("   ", " ***** ", " ***** ", "*      ", " ***** ")
+
+        };
+
+        for (String line : lines) {
+            System.out.println(line);
+        }
+    }
+}
+
